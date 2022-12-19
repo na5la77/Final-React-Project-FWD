@@ -27,11 +27,14 @@ export default function SearchPage() {
   };
 
   const updateQuery = (query) => {
-    if (query.length === 0) {
+    if (!query) {
+      
       setResult([])
     } else {
       showingBooks(query);
     }
+
+
   };
   const defaultSelectHandler = (book)=>{
    
