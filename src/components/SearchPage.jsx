@@ -47,7 +47,7 @@ export default function SearchPage() {
       
 
     }
-    return("move")
+    return("none")
     
   }
 
